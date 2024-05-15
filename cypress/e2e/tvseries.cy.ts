@@ -1,6 +1,5 @@
 import LongLatPage from "../pageobjects/LongLat.po";
-import { locationsFixture } from "../../fixtures/locations";
-describe("Long Lat", () => {
+describe("tv series tests", () => {
   it("should show tvseries", () => {
     cy.visit("/");
 
